@@ -26,3 +26,5 @@ why we use eks?
 EKS offers far more flexibility when managing the underlying resources with the flexibility to run on EC2, Fargate, and even on-premise via EKS Anywhere
 Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that makes it easy to deploy and run containerized applications on AWS
   
+how do we expose the pod? using services
+here we use node port service to access application

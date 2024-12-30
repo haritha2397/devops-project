@@ -1,0 +1,28 @@
+KUBERNETES CLUSTER SETUP:
+A Kubernetes cluster is a set of nodes (physical or virtual machines) that run containerized applications.
+There are multiple ways to setup kubernetes cluster.
+1.SELF MANAGER K8'S CLUSTER
+a.mini kube (single node cluster)
+b.kubeadm(multi node cluster)
+c. KOPS
+2. CLOUD MANAGED K8'S CLUSTER
+a. AWS EKS
+b.AZURE AKS
+c.GCP GKS
+d.IBM IKE
+
+we are facing so many issues like 
+  etcd crashed
+  scheduler not working properly
+  master node downtime
+  certification expired
+  api server down etc...
+
+by using eks , we dont bother all these things. and eks is highly robust
+  eks is used to create the eks cluster and kubectl is  allows you to run commands against Kubernetes clusters
+
+
+why we use eks?
+EKS offers far more flexibility when managing the underlying resources with the flexibility to run on EC2, Fargate, and even on-premise via EKS Anywhere
+Amazon Elastic Kubernetes Service (EKS) is a managed Kubernetes service that makes it easy to deploy and run containerized applications on AWS
+  
